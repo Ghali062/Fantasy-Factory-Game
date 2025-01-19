@@ -1,0 +1,7 @@
+- Ecrire une fonction int choice(std::string Phrase) qui s'occupe de demander à l'utilisateur 0 ou 1
+et qui prend en argument une phrase exemple Quelle de matière première voulez-vous acheter ?\n0. Metal\n1. Plastique\n"
+Elle peut aussi s'occuper de redemander à l'utilisateur de taper 0 ou 1 s'il a saisit autre chose.
+
+-Dans le même style, une fonction int/float/template quantity(std::string Phrase) avec comme phrase exemple :
+Combien de kg de métal voulez-vous acheter ?\n".
+Elle vérifie si la saisit n'est pas négative et éventuellement, si elle ne dépasse pas le nombre d'argent possédés par l'entreprise
